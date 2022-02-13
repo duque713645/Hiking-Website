@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito&family=Playfair+Display:wght@900&family=Poppins&family=Raleway:wght@300;400;700;900&family=Roboto:ital,wght@0,400;1,100&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+  <!-- CSS -->
+  <link rel="stylesheet" href="/css/styles.css">
+  <title>ADVENTURE</title>
+</head>
+<body>
+  <!--Navbar-->
+  <nav class="navbar">
+    <h1 class="logo">ADVENTURE</h1>
+    <ul class="nav-items">
+      <li class="active"><a href="#" class="nav-links">Home</a></li>
+      <li><a href="#" class="nav-links">Tools</a></li>
+      <li><a href="#" class="nav-links">Explore</a></li>
+      <li><a href="#" class="nav-links">About</a></li>
+      <li><a href="#" class="ctn" href="#">Contact</a></li>
+    </ul>
+   <img src="/img/Hamburger_icon.svg.png" class="menu-btn" alt="menu button" >
+  </nav> 
+ 
+  <!-- Header -->
+  <header>
+    <div class="header-content">
+      <h2>Explore The Colorful World</h2>
+      <div class="line1"></div>
+      <h1>A WOUNDERFUL GIFT</h1>
+      <a href="#" class="ctn">Learn More</a>
+    </div>
+  </header>
+
+  <!-- Events -->
+  <section class="events">
+     <div class="title">
+        <h1>Upcoming Events</h1>
+        <div class="line2"></div>
+     </div> 
+     <div class="row">
+        <div class="col">
+            <img src="/img/nina-luong-dy4QG5c5xWQ-unsplash.jpg" class="img" alt="">
+            <h4>Everest Camp Trek</h4>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi illum perferendis voluptatibus cum iusto hic.</p>
+            <a href="#" class="ctn" class="row-btn">Learn More</a>
+        </div>
+        <div class="col">
+            <img src="/img/toomas-tartes-Yizrl9N_eDA-unsplash.jpg" class="img" lt="">
+            <h4>Walking Holidays</h4>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi illum perferendis voluptatibus cum iusto hic.</p>
+            <a href="#" class="ctn" class="row-btn">Learn More</a>
+        </div>
+   </div>
+  </section>
+
+  <section class="explore"> 
+    <div class="explore-content">
+       <h1>EXPLORE THE WORLD</h1>
+       <div class="line1"></div>
+       <P>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Porro repellendus impedit sapiente magnam voluptatibus, dignissimos debitis odio quo saepe, libero iste assumenda sint commodi dolores.</P>
+       <a href="#" class="ctn" class="row-btn">Learn more</a>
+    </div> 
+  </section>
+
+  <section class="tours">
+      <div class="row">
+          <div class="col content-col">
+            <h1>Up Coming Tours And Destinations</h1>
+            <div class="line2 "></div>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iure, numquam accusantium ab placeat fuga dignissimos neque, corrupti tempora debitis non, necessitatibus ipsa. Ullam, magnam numquam repellat velit animi dicta ex?</p>
+            <a href="#" class="ctn" class="row-btn">Learn More</a>
+          </div>
+          <div class="col image-col">
+              <div class="image-gallery">
+                 <img src="/img/03.jpg" alt="mountains">
+                 <img src="/img/04.jpg" alt="mountains">
+                 <img src="/img/05.jpg" alt="mountains">
+                 <img src="/img/06.jpg" alt="mountains">
+              </div>
+          </div>
+      </div>
+  </section>
+  
+  <section class="footer">
+     <p>123 Fifth Avenue, NY 10160, New York, USA|Phone: 800-123-456|Email: Contact@example.com</p>
+     <p>Copyright &copy; 2020 Outdoor Adenture</p>
+  </section>
+
+  <script>
+      const menuBtn = document.querySelector('.menu-btn')
+      const navitems = document.querySelector('.nav-items')
+
+      menuBtn.addEventListener('click',()=>{
+        navitems.classList.toggle('mobile-menu')
+      })
+  </script>
+  
+  
+</body>
+</html>
